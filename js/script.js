@@ -22,12 +22,12 @@ const isValid = isSum50 && isTwoOdd && !isOver25 && isUnique;
 console.log(isValid);
 
 
-
+// gallons
 let g1 = 30
 let g2 = 28
 let g3 = 23
-
-let t1 = 55
+//time
+let t1 = 55 
 let t2 = 60
 let t3 = 75
 
@@ -36,13 +36,13 @@ const totalBud = 175
 let costOfFuel = 3 
 
 const trip1 = totalDis/g1 
-console.log(trip1);
+console.log(trip1,'gallons of gas');
 
 const trip2 = totalDis/g2 
-console.log(trip2);
+console.log(trip2, 'gallons of gas');
 
 const trip3 = totalDis/g3 
-console.log(trip3);
+console.log(trip3, 'gallons of gas');
 
 const trip1FuelCost = trip1* costOfFuel < totalBud
 console.log(trip1FuelCost);
